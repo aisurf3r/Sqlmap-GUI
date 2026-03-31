@@ -35,7 +35,59 @@ Una interfaz gráfica moderna y completa para **sqlmap**, creada con **PyQt6**. 
 
 ## 🛠️ Instalación
 
-1. **Clona el repositorio**:
+ **Clona el repositorio**:
    ```bash
    git clone https://github.com/tuusuario/sqlmap-gui.git
    cd sqlmap-gui
+   ```
+   
+
+## 🚀 Instalación y Uso
+
+1. **Clona o descarga** el repositorio.
+2. Coloca `gui_sqlmap.py` dentro de la carpeta de **sqlmap**.
+3. Instala PyQt6 (si no lo tienes):
+
+   ```bash
+   pip install PyQt6
+   ```
+
+Nota: Recomendado colocar la GUI en la misma carpeta que sqlmap.py para que funcione correctamente.
+
+4. Ejecuta la GUI
+```bash
+python gui_sqlmap.py
+```
+🎛️ Uso
+Modos Rápidos (Presets)
+
+Stealth: Bajo nivel y riesgo, muy discreto
+Bazoka: Alto nivel y riesgo, máximo rendimiento
+Paranoia: Modo paranoico con ofuscación
+Takeover: Orientado a takeover del sistema
+
+Funcionalidades principales
+
+Escribe la URL objetivo → el comando se actualiza automáticamente
+Selecciona técnicas, tampers, opciones de enumeración, etc.
+Usa los botones de la barra superior para acciones rápidas
+Guarda tus configuraciones como perfiles
+
+⚙️ Características avanzadas
+
+Carga dinámica de scripts de tamper desde la carpeta /tamper
+Soporte para POST data, cookies, headers, proxy, Tor, etc.
+Parsing automático de tablas de resultados
+Guardado y carga de perfiles en formato JSON
+
+🛡️ Advertencia
+Esta herramienta es solo para fines educativos y pruebas autorizadas.
+El uso indebido de sqlmap puede ser ilegal. Úsalo solo en entornos donde tengas permiso explícito.
+
+
+🤝 Contribuciones
+Las contribuciones son bienvenidas. Si quieres mejorar la GUI, añadir funciones o corregir bugs, abre un Pull Request.
+📄 Licencia
+Este proyecto está bajo la licencia MIT.
+
+Hecho con ❤️  por Aisurf3r para la comunidad de pentesting
